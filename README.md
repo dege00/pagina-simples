@@ -1,5 +1,6 @@
-# Meu Projeto
+# Meu Projeto de site
 
-Meu site simples!  
+Meu site é simples, mas é para um trabalho academico!  
+Um projeto que talvez levarei para frente 
 
-![Logo do GitHub](site/icons/github-logo.webp)
+![logo](site/icons/LanHouse.png)
