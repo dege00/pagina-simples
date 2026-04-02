@@ -3,4 +3,4 @@
 Meu site é simples, mas é para um trabalho academico!  
 Um projeto que talvez levarei para frente 
 
-![logo](site/icons/LanHouse.png)
+![logo](icons/LanHouse.png)
