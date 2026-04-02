@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 72px;
+  margin-bottom: 0;
+  margin-top: 200px;
+}
+
+p {
+  margin-top: 5px;
+  color: #ff53ac;
+}
+
+.logo {
+  text-shadow: 
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #ff00ff;
+
+  animation: brilho 2s infinite alternate;
+}
+
+@keyframes brilho {
+  from {
+    text-shadow: 
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #ff00ff;
+  }
+  to {
+    text-shadow: 
+      0 0 20px #fff,
+      0 0 40px #ff00ff,
+      0 0 60px #ff00ff;
+  }
+}
+
+.bloco {
+  width: 100px;
+  transform: rotate(-15deg);
+  opacity: 0;
+
+  animation: aparecerbloco 2s ease-out forwards;
+
+  margin-top: 1px; 
+  margin-left: 100px; 
+  margin-right: 100px;
+}
+
+@keyframes aparecerbloco {
+  0% {
+    opacity: 0;
+    transform: translateX(200px) rotate(0deg) scale(0.5);
+  }
+
+  60% {
+    transform: translateX(-10px) rotate(-30deg) scale(1.1);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0) rotate(-15deg) scale(1);
+  }
+}
+
+.info {
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px;
+  max-width: 800px;
+  background: #0a0a0a;
+  border-radius: 15px;
+}
+
+.links {
+  margin-top: 30px;
+}
+
+.links a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 20px;
+  background: #111;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  background: #222;
+  transform: scale(1.05);
+}
+
+.links img {
+  width: 20px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
